@@ -64,3 +64,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "view_component", "~> 2.57"

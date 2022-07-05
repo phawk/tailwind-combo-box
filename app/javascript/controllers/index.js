@@ -4,5 +4,8 @@
 
 import { application } from "./application"
 
-import HelloController from "./hello_controller"
+import FancySelectController from "./fancy_select_controller.js"
+application.register("fancy-select", FancySelectController)
+
+import HelloController from "./hello_controller.js"
 application.register("hello", HelloController)
